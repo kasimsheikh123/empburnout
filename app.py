@@ -22,6 +22,8 @@ def predict():
     pred = round(pred,4)*100
 
     def statement():
+        if pred <= 0:
+            pred = 0
         return pred
 
 
