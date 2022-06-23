@@ -23,7 +23,7 @@ def predict():
 
     def statement():
         if pred <= 0:
-            pred = 0
+            return 0
         return pred
 
 
